@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   interval: 15m
-  path: "./sumit_flex/fluxcd/repositories/sumitapp/deploy"
+  path: "./fluxcd/repositories/sumitapp/deploy"
   prune: true
   sourceRef:
     kind: GitRepository
