@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: vilas-app-1
+  name: sumitapp
   namespace: default
 data:
   config.json: |

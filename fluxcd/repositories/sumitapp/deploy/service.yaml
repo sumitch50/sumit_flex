@@ -2,13 +2,13 @@ apiVersion: v1
 kind: Service
 metadata:
   namespace: default
-  name: vilas-app-1
+  name: sumitapp
   labels:
-    app: vilas-app-1
+    app: sumitapp
 spec:
   type: ClusterIP
   selector:
-    app: vilas-app-1
+    app: sumitapp
   ports:
     - protocol: TCP
       name: http

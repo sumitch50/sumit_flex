@@ -1,14 +1,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: vilas-app-1
+  name: sumitapp
   labels:
-    app: vilas-app-1
+    app: sumitapp
   namespace: default
 spec:
   selector:
     matchLabels:
-      app: vilas-app-1
+      app: sumitapp
   replicas: 2
   strategy:
     type: RollingUpdate
@@ -18,11 +18,11 @@ spec:
   template:
     metadata:
       labels:
-        app: vilas-app-1
+        app: sumitapp
     spec:
       containers:
-      - name: vilas-app-1
-        image: vilas-app-1:0.0.1
+      - name: sumitapp
+        image: sumitapp:0.0.1
         ports:
         - containerPort: 5000
         volumeMounts:
@@ -31,4 +31,4 @@ spec:
       volumes:
       - name: config-volume
         configMap:
-          name: vilas-app-1
+          name: sumitapp

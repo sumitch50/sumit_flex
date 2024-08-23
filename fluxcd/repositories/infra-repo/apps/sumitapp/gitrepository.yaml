@@ -6,5 +6,5 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: master
-  url: https://github.com/vilasvarghese/docker-development-youtube-series
+    branch: main
+  url: https://github.com/sumitch50/sumit_flex
