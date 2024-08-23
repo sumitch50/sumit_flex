@@ -1,0 +1,16 @@
+test fluxcd
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: root <root@ip-172-31-29-19.ec2.internal>
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   fluxcd/repositories/sumitapp/deploy/configmap.yaml
+#	new file:   fluxcd/repositories/sumitapp/deploy/deployment.yaml
+#	new file:   fluxcd/repositories/sumitapp/deploy/service.yaml
+#	new file:   fluxcd/repositories/sumitapp/src/app.py
+#	new file:   fluxcd/repositories/sumitapp/src/dockerfile
+#
